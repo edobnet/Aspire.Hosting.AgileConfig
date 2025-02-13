@@ -6,3 +6,7 @@
 /src/.vs
 /src/bin/Debug/net8.0
 /src/obj
+/src/Aspire.Hosting.AgileConfig/bin/Debug/net9.0
+/src/Aspire.Hosting.AgileConfig/obj
+/src/Aspire.Hosting.AgileConfig.HostApp/bin/Debug/net9.0
+/src/Aspire.Hosting.AgileConfig.HostApp/obj
