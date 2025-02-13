@@ -9,6 +9,6 @@
         public const string Image = "kklldog/agile_config";
 
         /// <remarks>7.4</remarks>
-        public const string Tag = "v-1.9.10";
+        public const string Tag = "latest";
     }
 }

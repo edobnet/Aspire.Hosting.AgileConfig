@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+	  <IsPackable>true</IsPackable>
+	  <Description>AgileConfig support for .NET Aspire.</Description>
+	  <IsAspireProjectResource>false</IsAspireProjectResource>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="api\**" />
+    <EmbeddedResource Remove="api\**" />
+    <None Remove="api\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting" Version="9.0.0" />
+  </ItemGroup>
+
+</Project>
