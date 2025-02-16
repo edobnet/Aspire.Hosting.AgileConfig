@@ -21,3 +21,5 @@
 /src/example/AspireProjectWithAgileConfig/AspireProjectWithAgileConfig.Web/bin/Debug/net9.0
 /src/example/AspireProjectWithAgileConfig/AspireProjectWithAgileConfig.Web/obj
 *.cache
+/src/Aspire.Hosting.AgileConfig/bin/Debug
+/src/Aspire.AgileConfig.Client/bin/Debug
