@@ -5,7 +5,17 @@ VisualStudioVersion = 17.11.35431.28
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspire.Hosting.AgileConfig", "src\Aspire.Hosting.AgileConfig\Aspire.Hosting.AgileConfig.csproj", "{143B1A25-B5FE-401A-90BC-45697F81ABC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspire.Hosting.AgileConfig.HostApp", "src\Aspire.Hosting.AgileConfig.HostApp\Aspire.Hosting.AgileConfig.HostApp.csproj", "{1C8FA4B2-6235-4AE3-9A25-C5A4C478BB40}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "example", "example", "{F6CA664E-7C50-4716-89C6-5AE79AD263D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireProjectWithAgileConfig.AppHost", "src\example\AspireProjectWithAgileConfig\AspireProjectWithAgileConfig.AppHost\AspireProjectWithAgileConfig.AppHost.csproj", "{0074729B-72FD-405D-A5ED-DC2A9411EB65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireProjectWithAgileConfig.ServiceDefaults", "src\example\AspireProjectWithAgileConfig\AspireProjectWithAgileConfig.ServiceDefaults\AspireProjectWithAgileConfig.ServiceDefaults.csproj", "{48AAEADC-39ED-4506-9437-9596D257EAB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireProjectWithAgileConfig.ApiService", "src\example\AspireProjectWithAgileConfig\AspireProjectWithAgileConfig.ApiService\AspireProjectWithAgileConfig.ApiService.csproj", "{37FD7E41-79C3-471B-A464-DB3E36FACB63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspireProjectWithAgileConfig.Web", "src\example\AspireProjectWithAgileConfig\AspireProjectWithAgileConfig.Web\AspireProjectWithAgileConfig.Web.csproj", "{070AC518-0EEC-4754-AA35-C6DEE6B72A89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspire.AgileConfig.Client", "src\Aspire.AgileConfig.Client\Aspire.AgileConfig.Client.csproj", "{7203AE07-D044-479F-97E3-5DD675884B0D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,13 +27,35 @@ Global
 		{143B1A25-B5FE-401A-90BC-45697F81ABC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{143B1A25-B5FE-401A-90BC-45697F81ABC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{143B1A25-B5FE-401A-90BC-45697F81ABC1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1C8FA4B2-6235-4AE3-9A25-C5A4C478BB40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1C8FA4B2-6235-4AE3-9A25-C5A4C478BB40}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1C8FA4B2-6235-4AE3-9A25-C5A4C478BB40}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1C8FA4B2-6235-4AE3-9A25-C5A4C478BB40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0074729B-72FD-405D-A5ED-DC2A9411EB65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0074729B-72FD-405D-A5ED-DC2A9411EB65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0074729B-72FD-405D-A5ED-DC2A9411EB65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0074729B-72FD-405D-A5ED-DC2A9411EB65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48AAEADC-39ED-4506-9437-9596D257EAB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48AAEADC-39ED-4506-9437-9596D257EAB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48AAEADC-39ED-4506-9437-9596D257EAB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48AAEADC-39ED-4506-9437-9596D257EAB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37FD7E41-79C3-471B-A464-DB3E36FACB63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37FD7E41-79C3-471B-A464-DB3E36FACB63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37FD7E41-79C3-471B-A464-DB3E36FACB63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37FD7E41-79C3-471B-A464-DB3E36FACB63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{070AC518-0EEC-4754-AA35-C6DEE6B72A89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{070AC518-0EEC-4754-AA35-C6DEE6B72A89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{070AC518-0EEC-4754-AA35-C6DEE6B72A89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{070AC518-0EEC-4754-AA35-C6DEE6B72A89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7203AE07-D044-479F-97E3-5DD675884B0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7203AE07-D044-479F-97E3-5DD675884B0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7203AE07-D044-479F-97E3-5DD675884B0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7203AE07-D044-479F-97E3-5DD675884B0D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0074729B-72FD-405D-A5ED-DC2A9411EB65} = {F6CA664E-7C50-4716-89C6-5AE79AD263D8}
+		{48AAEADC-39ED-4506-9437-9596D257EAB8} = {F6CA664E-7C50-4716-89C6-5AE79AD263D8}
+		{37FD7E41-79C3-471B-A464-DB3E36FACB63} = {F6CA664E-7C50-4716-89C6-5AE79AD263D8}
+		{070AC518-0EEC-4754-AA35-C6DEE6B72A89} = {F6CA664E-7C50-4716-89C6-5AE79AD263D8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BFFCD987-2F07-4E62-A28F-18965AAEF729}
