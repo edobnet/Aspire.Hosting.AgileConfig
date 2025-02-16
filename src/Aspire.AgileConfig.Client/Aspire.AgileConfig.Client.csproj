@@ -1,13 +1,17 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<PackageId>AspireAgileConfigClient</PackageId>
+		<Title>Aspire AgileConfig Client</Title>
+		<Description>AgileConfig client extension for .NET Aspire.</Description>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="AgileConfig.Client" Version="1.7.6" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="AgileConfig.Client" Version="1.7.6" />
+	</ItemGroup>
 
 </Project>
