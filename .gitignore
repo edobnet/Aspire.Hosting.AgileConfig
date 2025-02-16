@@ -10,3 +10,14 @@
 /src/Aspire.Hosting.AgileConfig/obj
 /src/Aspire.Hosting.AgileConfig.HostApp/bin/Debug/net9.0
 /src/Aspire.Hosting.AgileConfig.HostApp/obj
+/src/Aspire.AgileConfig.Client/bin/Debug/net8.0
+/src/Aspire.AgileConfig.Client/obj
+/src/example/AspireProjectWithAgileConfig/AspireProjectWithAgileConfig.ApiService/bin/Debug/net9.0
+/src/example/AspireProjectWithAgileConfig/AspireProjectWithAgileConfig.ApiService/obj
+/src/example/AspireProjectWithAgileConfig/AspireProjectWithAgileConfig.AppHost/bin/Debug/net9.0
+/src/example/AspireProjectWithAgileConfig/AspireProjectWithAgileConfig.AppHost/obj
+/src/example/AspireProjectWithAgileConfig/AspireProjectWithAgileConfig.ServiceDefaults/obj
+/src/example/AspireProjectWithAgileConfig/AspireProjectWithAgileConfig.ServiceDefaults/bin/Debug/net9.0
+/src/example/AspireProjectWithAgileConfig/AspireProjectWithAgileConfig.Web/bin/Debug/net9.0
+/src/example/AspireProjectWithAgileConfig/AspireProjectWithAgileConfig.Web/obj
+*.cache
