@@ -23,3 +23,5 @@
 *.cache
 /src/Aspire.Hosting.AgileConfig/bin/Debug
 /src/Aspire.AgileConfig.Client/bin/Debug
+/.vs/ProjectEvaluation
+/.vs
