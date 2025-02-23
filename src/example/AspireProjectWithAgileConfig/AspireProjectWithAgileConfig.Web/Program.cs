@@ -2,9 +2,11 @@ using AspireProjectWithAgileConfig.Web;
 using AspireProjectWithAgileConfig.Web.Components;
 using Aspire.AgileConfig.Client;
 
+string agileConfigApp = "myapp";
+
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Host.UseAspireAgileConfig();
+builder.Host.UseAspireAgileConfig(agileConfigApp);
 
 // Add service defaults & Aspire client integrations.
 builder.AddServiceDefaults();

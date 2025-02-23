@@ -5,9 +5,13 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-		<PackageId>AspireAgileConfigClient</PackageId>
+		<PackageId>AgileConfig.Client.Aspire</PackageId>
 		<Title>Aspire AgileConfig Client</Title>
 		<Description>AgileConfig client extension for .NET Aspire.</Description>
+		<Authors>mj.zhou;ncc</Authors>
+		<Version>1.0.0</Version>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+
 	</PropertyGroup>
 
 	<ItemGroup>

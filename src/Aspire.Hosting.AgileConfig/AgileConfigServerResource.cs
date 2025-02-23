@@ -2,7 +2,7 @@
 
 namespace Aspire.Hosting.AgileConfig
 {
-    public class AgileConfigResource(string name) : ContainerResource(name), IResourceWithConnectionString
+    public class AgileConfigServerResource(string name, AgileConfigOption option) : ContainerResource(name), IResourceWithConnectionString
     {
         internal const string PrimaryEndpointName = "http";
         internal const string InternalEndpointName = "internal";
@@ -21,7 +21,9 @@ namespace Aspire.Hosting.AgileConfig
         public EndpointReference InternalEndpoint => _internalEndpoint ??= new(this, InternalEndpointName);
 
         public ReferenceExpression ConnectionStringExpression =>
-            ReferenceExpression.Create($"http://{PrimaryEndpoint.Property(EndpointProperty.Host)}:{PrimaryEndpoint.Property(EndpointProperty.Port)}");
+            ReferenceExpression.Create($"nodes=http://{PrimaryEndpoint.Property(EndpointProperty.Host)}:{PrimaryEndpoint.Property(EndpointProperty.Port)}");
+
+        public AgileConfigOption Option => option;
 
     }
 }

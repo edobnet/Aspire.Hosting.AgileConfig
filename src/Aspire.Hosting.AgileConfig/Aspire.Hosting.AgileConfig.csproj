@@ -6,8 +6,12 @@
 	  <Description>AgileConfig Hosting extension for .NET Aspire.</Description>
 	  <IsAspireProjectResource>false</IsAspireProjectResource>
 	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-	  <PackageId>AspireHostingAgileConfig</PackageId>
+	  <PackageId>AgileConfig.Aspire.Hosting</PackageId>
 	  <Title>Aspire Hosting AgileConfig</Title>
+	  <Authors>mj.zhou;ncc</Authors>
+	  <Version>1.0.0</Version>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+
   </PropertyGroup>
 
   <ItemGroup>
