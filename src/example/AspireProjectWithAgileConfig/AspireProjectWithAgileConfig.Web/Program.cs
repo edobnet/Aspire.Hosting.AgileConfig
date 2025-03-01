@@ -2,11 +2,11 @@ using AspireProjectWithAgileConfig.Web;
 using AspireProjectWithAgileConfig.Web.Components;
 using Aspire.AgileConfig.Client;
 
-string agileConfigApp = "myapp";
+string appName = "webfrontend";
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Host.UseAspireAgileConfig(agileConfigApp);
+builder.Host.UseAspireAgileConfig(appName);
 
 // Add service defaults & Aspire client integrations.
 builder.AddServiceDefaults();
