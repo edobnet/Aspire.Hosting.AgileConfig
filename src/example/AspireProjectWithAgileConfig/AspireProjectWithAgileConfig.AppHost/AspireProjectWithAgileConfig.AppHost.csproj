@@ -12,12 +12,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Aspire.Hosting.AgileConfig\Aspire.Hosting.AgileConfig.csproj" IsAspireProjectResource="false"/>
     <ProjectReference Include="..\AspireProjectWithAgileConfig.ApiService\AspireProjectWithAgileConfig.ApiService.csproj" />
     <ProjectReference Include="..\AspireProjectWithAgileConfig.Web\AspireProjectWithAgileConfig.Web.csproj" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="AgileConfig.Aspire.Hosting" Version="1.0.0" />
     <PackageReference Include="Aspire.Hosting.AppHost" Version="9.0.0" />
     <PackageReference Include="Aspire.Hosting.Redis" Version="9.0.0" />
   </ItemGroup>

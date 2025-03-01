@@ -4,8 +4,8 @@ var builder = DistributedApplication.CreateBuilder(args);
 
 var agileConfig = builder.AddAgileConfig();
 
-var agileConfig_apiservice = agileConfig.AddApp("apiservice", "");
-var agileConfig_webfrontend = agileConfig.AddApp("webfrontend", "");
+var agileConfig_apiservice = agileConfig.AddApp("apiservice");
+var agileConfig_webfrontend = agileConfig.AddApp("webfrontend");
 
 
 var apiService = builder.AddProject<Projects.AspireProjectWithAgileConfig_ApiService>("apiservice");

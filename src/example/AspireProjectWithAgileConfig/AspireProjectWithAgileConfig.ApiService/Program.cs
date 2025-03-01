@@ -3,6 +3,7 @@ using Aspire.AgileConfig.Client;
 var appName = "apiService";
 
 var builder = WebApplication.CreateBuilder(args);
+
 builder.Host.UseAspireAgileConfig(appName);
 
 // Add service defaults & Aspire client integrations.
