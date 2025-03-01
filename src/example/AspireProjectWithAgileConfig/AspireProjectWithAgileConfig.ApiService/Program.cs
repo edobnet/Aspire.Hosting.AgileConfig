@@ -1,6 +1,6 @@
 using Aspire.AgileConfig.Client;
 
-var appName = "apiService";
+var appName = "apiservice";
 
 var builder = WebApplication.CreateBuilder(args);
 
